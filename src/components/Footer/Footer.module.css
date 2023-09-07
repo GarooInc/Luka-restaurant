@@ -1,0 +1,134 @@
+.footer{
+    width: 100%;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10% 5%;
+}
+
+.footercontainer .footercontainertitle{
+    color: #000;
+    font-size: 22px;
+    font-family: "TT Drugs Trial Bold";
+    padding-bottom: 20px;
+}
+
+.footercontainertext, .footercontainertext a{
+    color: #000;
+    font-size: 18px;
+    font-family: "Aaargh";
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-3px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(3px);
+    }
+}
+
+.footercontainericons img:hover{
+    animation: shake 3s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.footercontainerbutton{
+    font-family: "Aaargh";
+    padding: 10px 20px;
+    color: #000000;
+    border : 1px solid #000000;
+    border-color: #000000;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footercontainerbutton:hover{
+    background-color: #000;
+    color: #fff;
+    animation: shake 3s ease-in-out;
+}
+
+.footercontainerleft, .footercontainerrighttop{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10%;
+}
+
+.footercontainericons{
+    display: flex;
+    gap: 10%;
+}
+
+.footercontainericons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footercontainerright{
+    display: flex;
+    flex-direction: column;
+}
+
+.footercontainerrighttop{
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width:940px) {
+
+    .footercontainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footercontainer .footercontainertitle{
+        padding: 0;
+    }
+
+    .footercontainerleft, .footercontainerright{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10% 0;
+        text-align: center;
+    }
+
+    .footercontainertext, .footercontainertext a{
+        color: #000;
+        font-size: 16px;
+        font-family: "Aaargh";
+    }
+
+    .footercontainerrighttop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        text-align: center;
+    }
+
+    .footercontainericons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+
+    
+}
