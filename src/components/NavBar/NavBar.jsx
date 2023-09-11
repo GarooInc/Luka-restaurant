@@ -24,7 +24,7 @@ const Navbar = () => {
 
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
-                            <li><a href='http://boquiteo.com/'>Tienda</a></li>
+                            <li><a href='http://boquiteo.com/'>Delivery</a></li>
                             <li onClick={() => setIsMenuOpen(!isMenuOpen)}><a>Menú +</a></li>
                             <ul className={"nav-menu-submenu" + (isMenuOpen ? " open" : "")}>
                                 <li><a className="linkmenu" href="https://cdn.shopify.com/s/files/1/0268/3093/0000/files/Menu_Breakfast_-_LUKA.pdf?v=1694099039">Desayunos</a></li>

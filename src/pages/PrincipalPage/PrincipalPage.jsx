@@ -33,7 +33,7 @@ const PrincipalPage = () => {
                     <img src='/images/logo.png' alt='logo' className={styles.home__content__logo} />
                     <nav className={styles.home__content__nav}>
                         <ul>
-                            <li><a href='http://boquiteo.com/'>Tienda</a></li>
+                            <li><a href='http://boquiteo.com/'>Delivery</a></li>
                             <li onClick={() => setIsMenuOpen(!isMenuOpen)}><a>Menú +</a></li>
                             <ul className={`${styles.home__content__nav__submenu} ${isMenuOpen ? styles.open : ""}`}>
                                 <li><a href="https://cdn.shopify.com/s/files/1/0268/3093/0000/files/Menu_Breakfast_-_LUKA.pdf?v=1694099039">Desayunos</a></li>
