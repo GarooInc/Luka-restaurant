@@ -10,6 +10,10 @@ const ContactRoomPage = () => {
         <div className={styles.contact}>
             <Navbar />
             <div className={styles.contactContainer}>
+                <div className={styles.imagescontainer}>
+                    <img src='/images/contactrooms.jpg' alt='contactrooms' className={styles.contact__image} />
+                    <img src='/images/contactrooms2.jpg' alt='contactrooms2' className={styles.contact__image} />
+                </div>
                 <div className={styles.contact}>
                     <ContactRooms />
                 </div>

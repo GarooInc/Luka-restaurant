@@ -1,7 +1,6 @@
 .contact{
     width: 100%;
     background-color: #fff;
-    height: 100vh;
 }
 
 .contactContainer{
@@ -14,9 +13,33 @@
     margin-top: 5%;
 }
 
+.imagescontainer{
+    display: flex;
+    gap : 10px;
+    width: 90%;
+    height: 100%;
+}
+
+.imagescontainer img{
+    flex: 1;
+    height: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
     .contactContainer{
         margin-top: 20%;
+    }
+
+    .imagescontainer{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagescontainer img{
+        flex: none;
+        height: 300px;
     }
 }
 
