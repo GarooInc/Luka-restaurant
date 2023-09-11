@@ -1,7 +1,6 @@
 .contact{
     width: 100%;
     background-color: #fff;
-    height: 100vh;
 }
 
 .contactContainer{
@@ -16,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
     .contactContainer{
-        margin-top: 20%;
+        margin-top: 10%;
     }
 }
 
