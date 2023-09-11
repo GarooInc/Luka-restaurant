@@ -12,7 +12,7 @@ const Galery = () => {
             <div className={styles.galeryContainer}>
                 <div className={styles.gallery}>
                     {galeryImages.map(image => (
-                        <img key={image.id} src={image.src} alt={image.alt} loading="lazy"/>
+                        <img key={image.id} src={image.src} alt={image.alt}/>
                     ))}
                 </div>
             </div>
