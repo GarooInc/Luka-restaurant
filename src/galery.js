@@ -10,16 +10,6 @@ export const galeryImages = [
         alt: "2"
     },
     {
-        id: 3,
-        src: "/images/galery/3.jpg",
-        alt: "3"
-    },
-    {
-        id: 4,
-        src: "/images/galery/4.jpg",
-        alt: "4"
-    },
-    {
         id: 5,
         src: "/images/galery/5.jpg",
         alt: "5"
@@ -40,11 +30,6 @@ export const galeryImages = [
         alt: "8"
     },
     {
-        id: 9,
-        src: "/images/galery/9.jpg",
-        alt: "9"
-    },
-    {
         id: 10,
         src: "/images/galery/10.jpg",
         alt: "10"
@@ -63,11 +48,6 @@ export const galeryImages = [
         id: 13,
         src: "/images/galery/13.jpg",
         alt: "13"
-    },
-    {
-        id: 14,
-        src: "/images/galery/14.jpg",
-        alt: "14"
     },
     {
         id: 15,
