@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className={styles.footercontainerrighttop}>
                         <span className={styles.footercontainertitle}>Ubicación</span>
                         <span className={styles.footercontainertext}>9na avenida 19-61 zona 10 Edificio Zenit. Segundo Nivel</span>
-                        <button className={styles.footercontainerbutton} type="button" onClick={ () => window.open("https://goo.gl/maps/bzSWv6NZ4GrbQBPt5", "_blank")}>Cómo llegar</button>
+                        <button className={styles.footercontainerbutton} type="button" onClick={ () => window.open("https://goo.gl/maps/w4cy2Aeem5NWnNFy9", "_blank")}>Cómo llegar</button>
                     </div>
                     <div className={styles.footercontainerrightbottom}>
                         <span className={styles.footercontainertitle}>Contacto</span>
